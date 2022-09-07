@@ -1,0 +1,52 @@
+body{background-color: green;}
+
+#image{
+  height:100px;
+  width: 250px;
+  float: left ;
+}
+
+#image1{
+  height:100px;
+  width: 250px;
+  float: right;
+}
+
+h2{
+  color: red;
+  text-align: center;
+}
+
+hr{
+  color: #0000FF;
+  width: 500px;
+}
+
+input{
+  margin-bottom: 20px;
+}
+
+#survey-form{
+  border: 3px dashed red;
+  width: 400px;
+  height: 710px;
+  text-align: left;
+  margin: auto;
+  background-color: aqua;
+  align: top;
+}
+span{
+  font-size: 20px;
+}
+textarea{
+  width: 250px;
+  height: 200px;
+  margin-top: 10px;
+}
+#radio-label{
+  margin-top: 10px;
+}
+.button{
+  width: 400px;
+  background-color: yellow;
+}
