@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+  </head>
+  
+  <body>
+    <h2 id="title">Satisfaction Survey</h2><hr size= 7 ></br>
+  
+ <img src="https://www.purdue.edu/hr/CHL/healthyboiler/news/newsletter/2019-12/images/opinion850.png" alt="Your Opinion Matters" id=image> 
+  
+   <img src="https://www.purdue.edu/hr/CHL/healthyboiler/news/newsletter/2019-12/images/opinion850.png" alt="Your Opinion Matters" id=image1> 
+
+  
+  <form id="survey-form">
+  <label id="name-label">
+    	<span>Your Name :</span>
+       <input id="name" type="text" name="name" placeholder="Your Full Name" />
+    </label></br>
+    
+  <label id="number-label">
+    <span>Phone Number : </span>
+    <input type="tel" name="telephone"  pattern="[0-9]{10}"  placeholder="Your Phone Number" id="number" required/>    
+  </label></br>
+  
+    <label id="email-label">
+    	<span>Your Email :</span>
+       <input id="email" type="email" name="email" placeholder="Valid Email Address" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$ "/>
+  </label></br>
+
+<label id="age-label">
+  <span> Age         : </span>
+  <input type="text" name="age" placeholder="Your Age"/>
+         </label></br>    	
+
+<label id="gender-label">
+    	<span>Gender :</span><select name="selection">
+        <option value="Female">Female</option>
+        <option value="male">Male</option>
+        <option value="other">Other</option>
+        </select>
+</label>  </br>
+<label>
+<span id="message-label">Message :</span>
+        <textarea  id="message" name="message" placeholder="Your Message to Us"></textarea>
+</label> </br>
+
+<label id=radio-label>
+  <span>Would you recommend us to your friends?</span></br>
+  <input type="radio" name="radio" value="yes" checked/>yes</br>
+<input type="radio" name="radio" value="no"/>no</br>
+<input type="radio" name="radio" value="maybe"/>maybe</br>
+</label>
+
+<span>Which Branch Office Do You Prefer To Use?</span></br>
+<input type="checkbox" name="country1" value="Turkey" checked>
+<label for="Turkey"> Turkey</label></br>   
+<input type="checkbox" name="country2" value="UK">
+<label for="UK"> UK</label></br>   
+<input type="checkbox" name="country3" value="USA">
+<label for="USA"> USA</label></br>   
+
+<label id="button-label">
+    	<span> </span> 
+        <input type="button" class="button" value="Send" /> 
+    </label> 
+  </form>
+
+  
+  </body>
+
+</html>
